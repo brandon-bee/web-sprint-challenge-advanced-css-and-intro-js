@@ -200,6 +200,19 @@ const artists = [
     "paintings": 328
   }
 ]
+<!-- Example Array -->
+let array = [
+  {
+    "name": "Bob",
+    "age": 55
+  },
+  {
+    "name": "Rob",
+    "age": 56
+  }
+];
+<!-- To access the age of the second object -->
+console.log(array[1].age);
 
 // 🖌🖼 M V P 🖼🖌 //
 

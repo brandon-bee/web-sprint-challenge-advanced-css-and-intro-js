@@ -22,11 +22,37 @@ Commit your code regularly and meaningfully.
 
 Please answer the following questions below, you may edit the readme file to include your answers below the question.
 
-1. How would you describe acessibility on the web to someone new to programming?
-2. Talk about 3 different things you can do to ensure your website is accessible. 
+1. How would you describe accessibility on the web to someone new to programming?
+
+  Accessibility is the practice of designing and creating your webpage to be readable by all manners of people with a range of impairments(visual, hearing, etc.). By using current accessibility features and best practices, you are ensuring your site can be viewed and interpreted by a wider range of people, and you are not excluding anyone from your site.
+
+2. Talk about 3 different things you can do to ensure your website is accessible.
+
+  One thing is to make sure you are using Semantic HTML to help give the content of your page meaning. Another thing to check is that the color scheme you've chosen is of high enough contrast and not unfriendly to versions of color-blindness. Additionally, you should make sure all of your images have alt properties in them to aid screen readers in explaining images.
+
 3. How would you explain the concept of a variable to someone new to programming?
+
+  A variable is like a container, and that container is able to hold any type of data you need. You assign that data to a variable, so that you can reference the variable throughout your code instead of having to hand-key whatever data is being represented by the variable.
+
 4. What is the purpose of using functions in code?
+
+  The purpose of a function is to allow developers to make blocks of code that will execute when the function name is called. This helps with not repeating code for things that need done multiple times. Functions can also take parameters, so we are able to run a function on any data we wish if we put that data in as the parameter.
+
 5. How do you access a key inside of an object inside of an array?
+
+<!-- Example Array -->
+let array = [
+  {
+    "name": "Bob",
+    "age": 55
+  },
+  {
+    "name": "Rob",
+    "age": 56
+  }
+];
+<!-- To access the age of the second object -->
+console.log(array[1].age);
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
